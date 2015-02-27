@@ -1,0 +1,86 @@
+This text file contains what has changed in each update.
+Like added features, bug fixes and added documentation.
+
+
+
+TerrainComposer final version 1.04
+----------------------------------
+Included "procedural landscape1" finished project from video.
+
+Updates:
+- TerrainComposer latest downloaded version will be in the folder -> TerrainComposer -> Update. You can use
+  this package if you start a new project.
+
+Features:
+
+- Seperate colormap and splat texture slots. The colormap textures are loaded automatically, you only need to set them.
+- Can apply a colormap in standard shader in splat slot 0.
+- image/heightmap import into filters/subfilers by naming string (alt click search button).
+- Edge blur in filter with radius for images with splat texturing.To get smooth edges. 
+- Added color range select mode. Now you can select colors/splats/trees/grass/objects directly with using images in
+  filters and subfilters.
+- Auto detect colors from an image in filters/subfilters.
+- Curve swapping in filters/subfilters.
+- Perlin curve offset range modifier to fine tune offset. Reset button to set offset to zero. Randomize button for
+  random offset.
+- Terrain Settings can be copied with creating new terrains. So you don't need to click set all buttons for 
+  splat/trees/grass.
+- Run in background option -> TC Menu -> Generate Settings -> Run in Background.
+- Automatic Autofit terrains in TC Menu -> Generate Settings -> Auto Fit Terrains.
+
+
+Presets:
+- Preset for heightmap creation with perlin curve and filter settings with new heightmap layers. Only works with 
+  setting popup field at the left of '>view' button to "heightmap", and then add a layer.
+
+
+Improvements:
+- Perlin zooms into the middle.
+- Smoothing is more sensitive, can smooth with decimals
+- Tree and Object resolutions in Local Area.
+
+GUI Interface:
+- Instead of standard Filter/Subfilter text. Now the text can be displayed what each filter/subfilter is doing with
+  each layer output. You can enable/disable this in TC Menu -> View -> Filter Select Text.
+- Detail per patch slider.
+- Can setup terrain (splat/tree/grass) before creating.
+- Can shift click small red fit all button next to terrain to fit all.
+- Blue tool button enable/disable. Disable will close the image tools window.
+
+Fixes:
+- Measure tool, measures grass correcly.
+- Pattern tool empty patterns generate error. 
+
+
+
+TerrainComposer final version 1.03x
+-----------------------------------
+Included a procedural heightmap tutorial -> TC Menu -> Open -> Examples -> Procedural Mountains
+
+
+Fixes:
+- Version 1.02 discard as was not giving correct output.
+- Loading saved projects path reset for creating new terrains.
+
+
+
+
+TerrainComposer final version 1.01
+----------------------------------
+- Removed output button toggles. The indicator that an output button is active the background will
+  change to a green color.
+
+
+
+
+TerrainComposer final version 1.00
+---------------------------------
+
+Features:
+- Added all Terrain Settings (same as in Unity terrain) to TC Terrain List -> Data -> Settings.
+  Now there is no longer need to edit the TerrainDetail script manually.
+  You can set editor and runtime terrain settings.   
+  Added to the documentation page 18.
+- Tree colors from an image, with this you can make beautifull tree colored landscapes.
+  Added to the docmentation page 26-27.
+ 
